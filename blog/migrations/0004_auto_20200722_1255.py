@@ -8,7 +8,6 @@ class Migration(migrations.Migration):
     dependencies = [
         ('blog', '0003_post_author_name'),
     ]
-
     operations = [
         migrations.AlterField(
             model_name='post',
