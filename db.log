@@ -30,3 +30,24 @@
             WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
             ORDER BY name; args=None
 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-07-23 03:10:18.603758' AND "django_session"."session_key" = '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh'); args=('2020-07-23 03:10:18.603758', '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh')
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-07-23 03:10:24.486480' AND "django_session"."session_key" = '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh'); args=('2020-07-23 03:10:24.486480', '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-07-23 03:12:26.924347' AND "django_session"."session_key" = '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh'); args=('2020-07-23 03:12:26.924347', '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh')
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-07-23 03:12:30.603993' AND "django_session"."session_key" = '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh'); args=('2020-07-23 03:12:30.603993', '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-07-23 03:13:14.146123' AND "django_session"."session_key" = '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh'); args=('2020-07-23 03:13:14.146123', '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item" ORDER BY "shop_item"."id" ASC LIMIT 1; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
