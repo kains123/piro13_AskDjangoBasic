@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     'django_jinja',
 
     'blog',
+    'common',
     'shop',
+
 ]
 
 MIDDLEWARE = [
