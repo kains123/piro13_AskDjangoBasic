@@ -1,5 +1,6 @@
 from django.db import models
 from mysite.utils import uuid_upload_to
+from django.urls import reverse
 
 class Item(models.Model):
     title = models.CharField(max_length=100)
@@ -12,5 +13,9 @@ class Item(models.Model):
 
     def __str__(self):
         return '<{}> {}'.format(self.pk, self.title)
+
+    def get_absolute_url(self):
+        #return reverse('shop:item_detail', args=[self.pk])
+        return reverse('shop:item_detail', kwargs={'pk' : self.pk})
 
         

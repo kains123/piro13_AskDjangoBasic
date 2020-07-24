@@ -1,6 +1,6 @@
 import logging
 from django.http import HttpResponse
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, redirect, render
 from .models import Item
 
 logger = logging.getLogger(__name__) #__name__은 shop.views안으로 들어간다.
