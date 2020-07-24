@@ -54,3 +54,43 @@
 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-07-23 05:02:43.288392' AND "django_session"."session_key" = '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh'); args=('2020-07-23 05:02:43.288392', '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh')
 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-07-23 05:02:49.080601' AND "django_session"."session_key" = '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh'); args=('2020-07-23 05:02:49.080601', '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh')
 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-07-23 05:03:02.300703' AND "django_session"."session_key" = '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh'); args=('2020-07-23 05:03:02.300703', '4ps1igqpfa2zdzm8lpyioybz7y4lsyzh')
+(0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-07-24 09:14:24.987934' AND "django_session"."session_key" = 'zj61e129y0njjiin8cfzedrjva5r3qf2'); args=('2020-07-24 09:14:24.987934', 'zj61e129y0njjiin8cfzedrjva5r3qf2')
+(0.001) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item" ORDER BY "shop_item"."id" ASC LIMIT 1; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item" WHERE "shop_item"."id" = 3; args=(3,)
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item" WHERE "shop_item"."id" = 2; args=(2,)
+(0.001) SELECT "shop_item"."id", "shop_item"."title", "shop_item"."desc", "shop_item"."price", "shop_item"."is_publish", "shop_item"."created_at", "shop_item"."updated_at" FROM "shop_item"; args=()
